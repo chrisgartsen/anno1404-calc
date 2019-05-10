@@ -1,7 +1,16 @@
 import Vue from 'vue'
+import Buefy from 'buefy'
+;
 import App from './App.vue'
 import router from './router'
 import store from './store'
+
+import 'buefy/dist/buefy.css'
+
+import '@/filters/building'
+import '@/filters/percentage'
+
+Vue.use(Buefy)
 
 Vue.config.productionTip = false
 
